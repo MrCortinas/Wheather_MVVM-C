@@ -14,14 +14,14 @@ struct OnboardingView: View {
     var body: some View {
         TabView {
             
-            ScaledImageView(name: "cat")
+            ScaledImageView(name: "MVVMLayout")
                 .tag(0)
-            ScaledImageView(name: "lama")
+            ScaledImageView(name: "coordinator")
                 .tag(1)
-            ScaledImageView(name: "rose")
+            ScaledImageView(name: "MVVM-C")
                 .tag(2)
             
-            Button("Done") {
+            Button("OK GOT IT!") {
                 doneRequested()
             }
             
